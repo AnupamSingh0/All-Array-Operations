@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//function to insert an element into an array at specified position
+/*function to insert an element into an array at specified position*/
 void insert(int arr[100], int *size, int element, int pos)
 {
 	int i;
@@ -12,7 +12,7 @@ void insert(int arr[100], int *size, int element, int pos)
 	(*size)++;
 }
 
-//function to traverse the array and print it
+/*function to traverse the array and print it*/
 void traverse(int arr[], int size)
 {
 	printf("Updated Array Elements: ");
@@ -28,13 +28,13 @@ void traverse(int arr[], int size)
 	printf("\n");
 }
 
-//function to update an element
+/*function to update an element*/
 void update(int arr[], int size, int element, int pos)
 {
 	arr[pos-1]=element;
 }
 
-//function to Sort an Array Elements
+/*function to Sort an Array Elements*/
 void Sort(int arr[], int size)
 {
 	int i;
@@ -52,7 +52,7 @@ void Sort(int arr[], int size)
 	}
 }
 
-//function to reverse an Array
+/*function to reverse an Array*/
 void reverse(int arr[], int size)
 {
   int i;
@@ -62,7 +62,7 @@ void reverse(int arr[], int size)
   }
 }
 
-//function to Delete an Element
+/*function to Delete an Element*/
 void del(int arr[], int*size, int pos)
 {
  int i;
@@ -73,7 +73,7 @@ void del(int arr[], int*size, int pos)
  (*size)--;
 }
 
-//function to search an element
+/*function to search an element*/
 int search(int arr[], int size, int element)
 {
 	int i;
@@ -87,7 +87,7 @@ int search(int arr[], int size, int element)
  return -1;
 }
 
-//function to find the Smallest Element 
+/*function to find the Smallest Element*/ 
 int minimum(int arr[], int size)
 {
 
@@ -103,7 +103,7 @@ for(i=1; i<size; i++)
 return min;
 }
 
-//function to find the Largest Element 
+/*function to find the Largest Element*/ 
 int maximum(int arr[], int size)
 {
 
